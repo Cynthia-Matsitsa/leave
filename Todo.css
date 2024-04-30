@@ -1,6 +1,6 @@
 #navbarp{
     display: flex;
-    gap: 150px;
+    gap: 180px;
     font-size: 100%;
 }
 #add-task{
@@ -34,6 +34,9 @@
 a{
     text-decoration: none;
     color: black;
+  }
+  #concern{
+    font-size: 200%;
   }
   @media screen and (min-width :280px) and (max-width :400px){
     #navbarp{
