@@ -55,7 +55,7 @@ a{
     #footer{
         background-color: lightskyblue;
         height: 260px;
-        margin-top: 25%;
+        margin-bottom: 15%;
     }
     #tasks{
         display: flex;
