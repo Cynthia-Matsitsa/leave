@@ -6,25 +6,48 @@
 #profile{
   margin-left: 30%;
   margin-bottom: 2%;
+  width:350px;
 }
 #sentence{
     font-size: 160%;
     margin-left: 20%;
 }
-#footer{
-    background-color: lightskyblue;
-    height: 130px;
-    margin-top: 1%;
-}
-#navbar9{
-    display: flex;
-    gap: 180px;
-    font-size: 150%;
+#navbars{
+  display: flex;
+  gap: 120px;
+  
 }
 a{
     text-decoration: none;
     color: black;
 }
+@media screen and (min-width:280px)and(max-width:400px){
+    
+#image10{
+    margin-left: 78%;
+    width: 20%;
+}
+#profile{
+  margin-left: 0%;
+  margin-bottom: 2%;
+  
+}
+#sentence{
+    font-size: 100%;
+    margin-left: 20%;
+}
+#navbars{
+  display: flex;
+  gap: 180px;
+  
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+}
+
+
 
 
 

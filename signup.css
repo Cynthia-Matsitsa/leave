@@ -36,12 +36,7 @@
 .page{
   margin-left: 690px;
 }
-.footer1{
- background-color: lightskyblue;
- height: 270px;
- margin-top: 3%;
-  
-}
+
 .sign{
   border: solid;
     border-radius: 15px;
@@ -84,6 +79,13 @@ a{
   text-decoration: none;
   color: black;
 }
+.report2{
+  border: solid;
+  border-radius: 15px;
+  padding: 20px;
+  width: 20%;
+  margin-left: 8%; 
+}
 @media screen and (min-width:280px)and (max-width:400px){
   .signpage{
     color: lightskyblue;
@@ -123,13 +125,6 @@ a{
   .page{
     margin-left: 20px;
   }
-  .footer1{
-   background-color: lightskyblue;
-   height: 94px;
-   margin-top: 2%;
-   width: 300px;
-    
-  }
   .sign{
     border: solid;
       border-radius: 15px;
@@ -164,6 +159,13 @@ a{
   a{
     text-decoration: none;
     color: black;
+  }
+  .report2{
+    border: solid;
+    border-radius: 15px;
+    padding: 20px;
+    width: 20%;
+    margin-left: 8%; 
   }
 }
   
