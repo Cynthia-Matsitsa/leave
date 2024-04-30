@@ -32,12 +32,17 @@ a{
     gap: 300px;
     text-align: center;
     background-color:lightskyblue;
-    height: 280px;
+    height: 150px;
     margin-top: 10%;
     width: 1809px;
     
  
  
+ }
+ .pic2{
+    width:30% ;
+    height: 300px;
+    margin-left: 30%;
  }
 @media screen and (min-width:280px) and (max-width:400px){
     .navbar3{
