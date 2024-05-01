@@ -1,6 +1,6 @@
 #navbar{
     display: flex;
-    gap: 180px;
+    gap: 120px;
     font-size: 150%;
     color: lightskyblue;
 }
