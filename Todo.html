@@ -8,6 +8,7 @@
 </head>
 <body>
     <body>
+      <div id="mouse">
         <div id="navbarp">
             <a href="http://127.0.0.1:5500/index.html">Home</a>
             <a href="http://127.0.0.1:5500/signup.html">Sign up</a>
@@ -18,44 +19,23 @@
       
             </div>
             
-        
-          <img src="image/ee.png" alt="" class="image5"> 
-          <div class="list">
-        <h1>To-Do List</h1>
-        <input type="text" id="new-task" placeholder="Enter a new task">
-        <button class="add-task">Add Task</button>
-        <ul id="todo-list"></ul>
-        <script>
-          const todoList = document.getElementById('todo-list');
-          const newTaskInput = document.getElementById('new-task');
-          const addTaskButton = document.getElementById('add-task');
-          const tasks = []; // Array to store tasks
-          addTaskButton.addEventListener('click', function() {
-            const task = newTaskInput.value.trim(); // Get task text and trim whitespace
-            if (task) { // Check if task is not empty
-              tasks.push(task);
-              newTaskInput.value = ''; // Clear input field
-              renderTodoList();
-            }
-          });
-          function renderTodoList() {
-            todoList.innerHTML = ''; // Clear existing list items
-            tasks.forEach((task, index) => {
-              const listItem = document.createElement('li');
-              listItem.innerText = task;
-              const deleteButton = document.createElement('button');
-              deleteButton.innerText = 'Delete';
-              deleteButton.addEventListener('click', function() {
-                tasks.splice(index, 1); // Remove task from array
-                renderTodoList();
-              });
-              listItem.appendChild(deleteButton);
-              todoList.appendChild(listItem);
-            });
-          }
-        </script>
+            
       <div id="concern">
-
+      <div id="list">
+        <h1>To Do List</h1>
+      </div>
+        <br>
+        <br>
+        <b><input type="checkbox"/> Review for Born a Crime summary for two chapter</b>
+        <br>
+        <br>
+        <b><input type="checkbox"/> Review for Born a Crime summary for two chapter</b>
+        <br>
+        <br>
+        <b><input type="checkbox"/> Review for Born a Crime summary for two chapter</b>
+        <br>
+        <br>
+        <b><input type="checkbox"/> Review for Born a Crime summary for two chapter</b>
         <br>
         <br>
         <b><input type="checkbox"/> Review for Born a Crime summary for two chapter</b>

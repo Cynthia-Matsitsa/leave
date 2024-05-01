@@ -36,9 +36,37 @@ a{
 .list{
     margin-left: 40%
 }
-#Holder{
-
-}
+.email{
+    border: solid;
+    border-radius: 15px;
+    padding: 20px;
+    width: 30%;
+  
+  }
+  .name{
+    border: solid;
+    border-radius: 15px;
+    padding: 20px;
+    width: 30%;
+    
+  
+  }
+  .lastname{
+    border: solid;
+    border-radius: 15px;
+    padding: 20px;
+    width: 30%;
+    margin-bottom: 1%;
+  }
+  .password{
+    border: solid;
+    border-radius: 15px;
+    padding: 20px;
+    width: 30%;
+  }
+  #placeholder{
+    margin-left: 35%;
+  }
 @media screen and (min-width: 280px) and (max-width : 400px){
     #navbar{
         display: flex;
