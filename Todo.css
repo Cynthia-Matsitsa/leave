@@ -3,33 +3,8 @@
     gap: 180px;
     font-size: 100%;
 }
-#add-task{
-    border: solid;
-    border-radius: 15px;
-    
-}
-#task{
-    gap: 200px;
-}
 
 
-#tasks{
-    display: flex;
-}
-.holder2{
-    margin-left: 40%;
-    margin-top: 2%;
-    
-}
-.image5{
-    margin-left: 80%;
-    width: 5%;
-}
-.list{
-    margin-left: 40%;
-    font-size: 100%;
-    
-}
 #list{
     font-size: 100%;
 }
@@ -42,6 +17,15 @@ a{
     margin-left: 30%;
     
   }
+  #list{
+    font-size: 200%;
+    margin-left: 40%;
+  }
+  #input-container{
+      margin-left: 40%;
+      margin-top: 6%;
+  }
+  
   @media screen and (min-width :280px) and (max-width :400px){
     #navbarp{
         display: flex;
