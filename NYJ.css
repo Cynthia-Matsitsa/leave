@@ -26,19 +26,8 @@ a{
     text-decoration: none;
     color: black;
 }
-#footer9{
-    font-size: 30%; 
-    display: flex;
-    gap: 300px;
-    text-align: center;
-    background-color:lightskyblue;
-    height: 150px;
-    margin-top: 10%;
-    width: 1809px;
-    
- 
- 
- }
+
+
  .pic2{
     width:30% ;
     height: 300px;
@@ -53,12 +42,8 @@ a{
     .summary{
         font-size: 20%;
     }
-    .footer{
-        border: solid;
-        height:100px;
-        background-color: lightskyblue;
-        border-style: hidden; 
-    }
+    
+    
     .image9{
         margin-left: 90%;
         margin-bottom: 1%;

@@ -11,11 +11,8 @@
 #task{
     gap: 200px;
 }
-#footer{
-    background-color: lightskyblue;
-    height: 260px;
-    margin-top: 25%;
-}
+
+
 #tasks{
     display: flex;
 }
@@ -53,11 +50,8 @@ a{
     #task{
         gap: 200px;
     }
-    #footer{
-        background-color: lightskyblue;
-        height: 260px;
-        margin-bottom: 15%;
-    }
+  
+    
     #tasks{
         display: flex;
     }
